@@ -1,0 +1,16 @@
+.order__container {
+	background-color: white;
+	padding: 30px;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+.order__info {
+	display: flex;
+	justify-content: space-between;
+}
+.order__items {
+	padding: 10px;
+}
+.order__total {
+	text-align: right;
+}

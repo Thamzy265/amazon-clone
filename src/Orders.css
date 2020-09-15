@@ -1,0 +1,9 @@
+.orders {
+	margin: 40px;
+}
+.orders__none {
+	background-color: white;
+	margin-top: 2rem;
+	padding: 30px;
+	border-radius: 10px;
+}

@@ -1,0 +1,54 @@
+.signIn {
+	background-color: white;
+	height: 100vh;
+}
+.signIn__container {
+	padding-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.signIn__feedback {
+	padding-top: 5px;
+	color: tomato;
+}
+.signIn__logo {
+	width: 100px;
+	object-fit: contain;
+}
+.signIn__card {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	padding: 20px;
+	border: 2px solid #dddddd;
+}
+.signIn__form {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.signIn__form > h5 {
+	padding-top: 8px;
+}
+.signIn__form > input {
+	height: 1.5rem;
+}
+.signIn__signBtn {
+	height: 2rem;
+	margin-top: 1rem;
+	background-color: #f0c14b;
+	border: 1px solid;
+	border-color: #a88734 #9c7e31 #846a29;
+	border-radius: 3px;
+	color: #111;
+}
+.signIn__card > small {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-size: 13px;
+}
+.signIn__createBtn {
+	height: 2rem;
+}

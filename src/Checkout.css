@@ -1,0 +1,36 @@
+.checkout {
+	background-color: white;
+	padding: 20px;
+}
+.checkout__img {
+	width: 100%;
+}
+.checkout__top {
+	display: flex;
+}
+.checkout__banner {
+	margin-right: 10px;
+	border-bottom: 1px solid #dddddd;
+}
+.checkout__bannerInfo {
+	padding-top: 16px;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+}
+.checkout__bannerInfo > h2 {
+	padding-bottom: 10px;
+}
+.checkout__products {
+	width: 75%;
+}
+@media (max-width: 600px) {
+	.checkout__top {
+		flex-direction: column;
+	}
+	.checkout__subtotal {
+		margin-top: 10px;
+	}
+	.checkout__products {
+		width: 100%;
+	}
+}

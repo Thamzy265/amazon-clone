@@ -1,0 +1,83 @@
+.header {
+	background-color: #131921;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+.header__nav {
+	display: flex;
+
+	height: 3.5rem;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__logo {
+	padding-left: 1rem;
+	width: 100px;
+	object-fit: contain;
+}
+.header__options {
+	display: flex;
+	flex-direction: column;
+}
+.header__search {
+	padding-left: 2rem;
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+.header__searchInput {
+	height: 1.8rem;
+	border-radius: 5px 0px 0px 5px;
+	border: none;
+	width: 100%;
+}
+.header__searchIcon {
+	background-color: #febd69;
+	height: 1.9rem !important;
+	width: 2.8rem !important;
+}
+.header__links {
+	color: white;
+	display: flex;
+	padding-right: 1rem;
+}
+.header__link {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1rem;
+	text-decoration: none;
+}
+.header__optionOne {
+	color: #d6d0c7;
+	font-size: 13px;
+}
+.header__optionTwo {
+	font-weight: 700;
+	color: white;
+}
+.header__shoppingCart {
+	display: flex;
+	align-items: center;
+	padding-left: 2rem;
+}
+.header__shoppingItem {
+	color: #f08804;
+	font-weight: 700;
+	font-size: 17px;
+}
+.header__searchSmall {
+	display: none;
+}
+@media (max-width: 600px) {
+	.header__search {
+		display: none;
+	}
+	.header__searchSmall {
+		display: flex;
+		align-items: center;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-bottom: 10px;
+	}
+}
