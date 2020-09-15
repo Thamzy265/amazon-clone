@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##CHECK THE WEBSITE
+Views website (https://clone-79fec.web.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
