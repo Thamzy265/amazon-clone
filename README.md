@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## CHECK THE WEBSITE
-Views website here >> (https://clone-79fec.web.app/)
+View the uploaded website here >> (https://clone-79fec.web.app/)
 
 ## Available Scripts
 
